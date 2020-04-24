@@ -1,0 +1,41 @@
+.header{
+    position: sticky;
+    background-color: #162047;
+    height: 79px;
+    h2{
+        border-left: 2px solid #b0afaf;
+        padding-left: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        font-family: 'Marvel', sans-serif;
+        letter-spacing: 3px;
+        font-weight: 100;
+    }
+    .logo{
+        padding-right: 1em;
+    }
+    .navbar{
+        li{
+            padding-left: 1.4em;
+            padding-top: 0.6em;
+            font-size: 1.6em;
+            font-family: 'Marvel', sans-serif;
+            color: #fff;
+            font-family: 'Harmattan', sans-serif;
+        }
+        a{
+            transition: all 0.5s ease-in-out;
+            letter-spacing: 2px;
+        }
+        a:hover{
+            color: rgb(250, 205, 82);
+        }
+    }
+    .header-container{
+        width: 90%;
+        margin: 0px auto;
+        .header-container--left{
+            padding-top: 0.7em;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.home-content:hover{
+    transform: scale(1.1);
+}
+@mixin bg-img(){
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.hc1{
+    background-image: url("https://ameri100.com/wp-content/uploads/2019/05/cloud_cover.jpg");
+    @include bg-img();
+}
+.hc2{
+    background-image: url("https://ameri100.com/wp-content/uploads/2019/05/enterprise_cover.jpg");
+    @include bg-img();
+}
+.hc3{
+    background-image: url("https://ameri100.com/wp-content/uploads/2019/05/digital_cover.jpg");
+    @include bg-img();
+    background-position: 84% 0;
+}
+
+.home-content{
+    height: 674px;
+    width: 33.33%;
+    transition: all 0.8s ease-in-out;
+    .hc-text{
+        padding-top: 14em;
+        text-align: center;
+    }
+    h2{
+        font-family: 'Orbitron', sans-serif;
+        letter-spacing: 5px;
+        font-size: 2.4em;
+        transition: all 0.8s ease-in-out;
+    }
+    h2:hover{
+        color: rgb(102, 168, 118);
+    }
+    p{
+        font-family: 'Marvel', sans-serif;
+        letter-spacing: 3px;
+        line-height: 29px;
+    }
+}

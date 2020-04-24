@@ -1,0 +1,48 @@
+@import "home";
+@import "header";
+@import "footer";
+@import "mediaquery";
+@import "font-family";
+@import "fontawesome";
+@import "solid";
+@import "regular";
+@import "brands";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+}
+._50{
+    width: 50%;
+}
+._80{
+    width: 80%;
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+a,h1,h2,h3,h4,h5,h6,p{
+    color: #fff;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.overlay{
+    width: 33.33%;
+    background-color: #000;
+    opacity: 0.5;
+    height: 755px;
+}
